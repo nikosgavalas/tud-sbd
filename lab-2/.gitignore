@@ -1,0 +1,47 @@
+# sbt
+# (may want to keep parts of 'project')
+bin/
+project/
+target/
+build/
+!project/build.properties
+!project/plugins.sbt
+.sbt
+
+# eclipse
+build
+.classpath
+.project
+.settings
+.worksheet
+
+# intellij idea
+*.log
+*.iml
+*.ipr
+*.iws
+.idea
+
+# mac
+.DS_Store
+
+# other?
+.history
+.scala_dependencies
+.cache
+.cache-main
+
+#general
+*.class
+.bsp/
+data/*
+reduced/*
+spark-events/
+tif/
+.ivy2
+.sbt.ivy.lock
+h3-4.0.0.jar
+jesse.sh
+results/*
+!.gitkeep
+scalastyle-config.xml
